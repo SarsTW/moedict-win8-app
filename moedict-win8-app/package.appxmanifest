@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="moedict-win8-app" Version="1.0.0.0" Publisher="CN=3du.tw" />
+  <Properties>
+    <DisplayName>萌典</DisplayName>
+    <PublisherDisplayName>3du.tw</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="萌典" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="萌典 - 3du.tw 國語詞典(離線版)" ForegroundText="dark" BackgroundColor="#E5E5E5">
+        <DefaultTile ShowName="wideLogoOnly" ShortName="萌典" />
+        <SplashScreen Image="images\splashscreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>
