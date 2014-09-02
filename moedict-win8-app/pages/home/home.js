@@ -10,7 +10,7 @@
             pageElement = element;
 
             if (!options) {
-                options = { 'title': '萌', 'id': 124146 };
+                options = { 'title': '萌', 'id': 124133 };
                 WinJS.Navigation.history.current.state = options;
             }
 
